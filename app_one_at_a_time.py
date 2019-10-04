@@ -10,7 +10,7 @@ import http.client
 class Ui_MainWindow(object):
 
     def __init__(self):
-        detectlanguage.configuration.api_key = '11e7bcde774a826ec953c3f3c302ab9c'
+        detectlanguage.configuration.api_key = 'insert_your_api_key_here'
 
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("Language Detector")
