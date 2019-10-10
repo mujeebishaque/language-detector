@@ -156,32 +156,6 @@ if __name__ == "__main__":
     sys.exit(app.exec_())
 
 '''
-
-        # print()
-        # print('--------------------------')
-        # print('websites that didnt return a response/offline/ssl_error')
-        # print('--------------------------')
-        # print()
-        # for x in range(len(record_store)):
-        #     print('->' + str(record_store[x]) )        
-
-        # import xlwt
-        # from tempfile import TemporaryFile
-        # book = xlwt.Workbook()
-        # sheet1 = book.add_sheet('sheet1')
-
-        # supersecretdata = record_store
-        # not_working_filename = os.getcwd() + os.sep + 'not_working.xls'        
-        # if os.path.exists(not_working_filename):
-        #     os.remove(not_working_filename)
-            
-        # for i,e in enumerate(supersecretdata):
-        #     sheet1.write(i,1,e)
-        
-        # name = "not_working.xls"
-        # book.save(name)
-        # book.save(TemporaryFile())
-
    def append_df_to_excel(self, df, excel_path):
         if not os.path.exists(excel_path):
             import openpyxl
