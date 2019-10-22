@@ -4,7 +4,7 @@
 
 This software detects the language of the url list provided and saves the url + language in an excel sheet
 
->The software uses the detectlanguage API from *https://detectlanguage.com*. Sign up and get a free api key for yourself to integrate in the software
+>It uses the detectlanguage API from *https://detectlanguage.com*. Sign up and get a free api key for yourself to integrate in the software
 
 ###  To install the packages
 ```
