@@ -1,6 +1,6 @@
 altgraph==0.16.1
 auto-py-to-exe==2.6.5
-bottle==0.12.17
+bottle==0.12.19
 bottle-websocket==0.2.9
 certifi==2019.9.11
 cffi==1.12.3
