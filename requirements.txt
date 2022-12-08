@@ -2,7 +2,7 @@ altgraph==0.16.1
 auto-py-to-exe==2.6.5
 bottle==0.12.17
 bottle-websocket==0.2.9
-certifi==2019.9.11
+certifi==2022.12.7
 cffi==1.12.3
 chardet==3.0.4
 Click==7.0
